@@ -1,0 +1,3 @@
+{
+  "replace $USER_TEXT_INPUT with $USER_TEXT_INPUT": "perl -nl -e \"s/{search_pattern}/{insert_text}/g; print;\" {file}"
+}

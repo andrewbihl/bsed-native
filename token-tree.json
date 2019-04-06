@@ -1,0 +1,19 @@
+{
+  "main": {
+    "$translations_file_name": "command_translations.json",
+    "replace": {
+      "$EVAL__text-with-text": {}
+    }
+  },
+
+
+
+  "text-with-text": {
+    "$USER_TEXT_INPUT": {
+      "$var_name": "search_pattern",
+      "with": {
+        "$USER_TEXT_INPUT": {"$var_name": "insert_text"}
+      }
+    }
+  }
+}
